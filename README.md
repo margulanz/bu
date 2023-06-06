@@ -7,6 +7,7 @@
 3) `python -m venv venv`
 4) `.\venv\scripts\activate`
 5) `python -m pip install -r requirements.txt`
+6) `alembic upgrade head`
 
 ## Запуск проекта
 `uvicorn src.main:app --reload`
